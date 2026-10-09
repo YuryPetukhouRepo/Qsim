@@ -11,8 +11,9 @@ import java.util.function.IntPredicate;
  *
  * <p>Convention: qubit 0 is the least-significant bit of the basis-state index.
  * E.g. for 2 qubits, amplitudes[0b10] is the amplitude of |q1=1, q0=0>.
- * This is the opposite of Qiskit's default ordering in some contexts — document
- * clearly wherever you compare against external references.
+ * This is the little-endian convention used by Qiskit. Textbooks (e.g. Nielsen and Chuang)
+ * usually write kets with qubit 0 leftmost, so |q0 q1> there corresponds to the reversed bit
+ * string here. Printed bit strings (see {@link #toString()}) list the highest qubit first.
  */
 public final class StateVector {
 

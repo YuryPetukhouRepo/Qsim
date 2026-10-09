@@ -20,6 +20,7 @@ equation it implements, and every algorithm is verified against its closed-form 
 - [Testing strategy](#testing-strategy)
 - [Limitations](#limitations)
 - [Further reading](#further-reading)
+- [License](#license)
 
 ## Quick start
 
@@ -297,3 +298,7 @@ This is a teaching and verification tool, not a production simulator.
 - C. Bennett, E. Bernstein, G. Brassard, U. Vazirani, *Strengths and weaknesses of quantum computing* (1997).
 - Y. Shi, *Both Toffoli and controlled-NOT need little help to do universal quantum computing* (2003);
   D. Aharonov, *A simple proof that Toffoli and Hadamard are quantum universal* (2003).
+
+## License
+
+Released under the [MIT License](LICENSE).
